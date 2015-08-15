@@ -4,6 +4,10 @@
 	<title>Menu</title> 
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+</head> 
 </head> 
 
 <body class="ui-mobile-viewport">  
@@ -16,36 +20,36 @@
     <ul data-role="listview" data-inset="true">
       <li data-role="list-divider">CHEF's Suggestions</li>
       <li>
-        <a href="#item1" >
+        <a href="#item1" rel="external" >
           <img src="img/PekingDuck_S.jpg" class="ui-li-icon;weight:80px;height:80px">Peking Duck</a>
       </li>
       <li>
-        <a href="#item2" >
+        <a href="#item2" rel="external" >
           <img src="img/Cantonese_Fillet_Steak_S.jpg" class="ui-li-icon;weight:80px;height:80px">Cantonese Fillet Steak</a>
       </li>
       <li>
-        <a href="#item3" >
+        <a href="#item3"  rel="external">
           <img src="img/Crispy_Calamari_with_Spiced_Peppery_Salt_S.jpg" class="ui-li-icon;weight:80px;height:80px">Crispy Calamari with Spiced Peppery Salt</a>
       </li>
 	 <li>
-        <a href="#item4"  >
-          <img src="img/PekingDuck_S.jpg" class="ui-li-icon;weight:80px;height:80px">Peking Duck</a>
+        <a href="#item4" rel="external" >
+          <img src="img/GongBao_Chicken_withCashew_Nuts_S.jpg" class="ui-li-icon;weight:80px;height:80px">GongBao Chicken withCashew Nuts</a>
       </li>
 	  <li>
-        <a href="#item5"  >
-          <img src="img/PekingDuck_S.jpg" class="ui-li-icon;weight:80px;height:80px">Peking Duck</a>
+        <a href="#item5" rel="external" >
+          <img src="img/Hot_&_Sour_Soup_S.jpg" class="ui-li-icon;weight:80px;height:80px">Hot and Sour Soup</a>
       </li>
 	  <li>
-        <a href="#item6"  >
-          <img src="img/PekingDuck_S.jpg" class="ui-li-icon;weight:80px;height:80px">Peking Duck</a>
+        <a href="#item6" rel="external" >
+          <img src="img/LettuceCup_S.jpg" class="ui-li-icon;weight:80px;height:80px">Lettuce Cup</a>
       </li>
 	  <li>
-        <a href="#item7"  >
-         <img src="img/PekingDuck_S.jpg" class="ui-li-icon;ui-li-thumb">Peking Duck</a>
+        <a href="#item7" rel="external" >
+         <img src="img/Special_Fried_Rice_S.jpg" class="ui-li-icon;ui-li-thumb">Special Fried Rice</a>
       </li>
 	  <li>
-        <a href="#item8"  >
-          <img src="img/PekingDuck_S.jpg" class="ui-li-icon;weight:80px;height:80px; ui-li-thumb">Peking Duck</a>
+        <a href="#item8" rel="external" >
+          <img src="img/Steamed_barramundi_with_Ginger_Shallot_Soya_Sauce_S.jpg" class="ui-li-icon;weight:80px;height:80px; ui-li-thumb">Steamed barramundi with Ginger Shallot Soya Sauce</a>
       </li>
     </ul>
   </div>
@@ -58,21 +62,21 @@
   <div role="main" class="ui-content">
     <center>
       <img style="width:90%;" src="img/PekingDuck.jpg" is="image">
+	  <h1 is="gk-text">Peking Duck</h1>
+	  <p>Price: 39.95$</P>
     </center>
-    <div is="raty" score="3"></div>
-    <h1 is="gk-text">Peking Duck</h1>
   </div>
   <div data-position="fixed" data-role="footer">
     <div data-role="navbar">
       <ul>
         <li>
-          <a data-icon="home">BtnA</a>
+          <a data-icon="home" href="index.html">Back Menu</a>
         </li>
         <li>
-          <a data-icon="star">BtnB</a>
+          <a data-icon="star">Qulity</a>
         </li>
         <li>
-          <a data-icon="star">BtnC</a>
+          <a data-icon="star">Add</a>
         </li>
       </ul>
     </div>
@@ -86,21 +90,22 @@
   <div role="main" class="ui-content">
     <center>
       <img style="width:90%;" src="img/Cantonese_Fillet_Steak.jpg" is="image">
-    </center>
-    <div is="raty" score="3"></div>
-    <h1 is="gk-text">Cantonese Fillet Steak</h1>
+		<h1 is="gk-text">Cantonese Fillet Steak</h1>
+		<p>Price: 19.95$</P>
+	</center>
+    
   </div>
   <div data-position="fixed" data-role="footer">
     <div data-role="navbar">
       <ul>
         <li>
-          <a data-icon="home">BtnA</a>
+          <a data-icon="home" href="index.html">Back Menu</a>
         </li>
         <li>
-          <a data-icon="star">BtnB</a>
+          <a data-icon="star">Qulity</a>
         </li>
         <li>
-          <a data-icon="star">BtnC</a>
+          <a data-icon="star">Add</a>
         </li>
       </ul>
     </div>
@@ -111,26 +116,26 @@
 
 <div id="item3" data-role="page">
   <div data-role="header" data-position="fixed">
-    <h3>Cantonese Fillet Steak</h3>
+    <h3>Crispy Calamari with Spiced Peppery Salt</h3>
   </div>
   <div role="main" class="ui-content">
     <center>
-      <img style="width:90%;" src="img/Cantonese_Fillet_Steak.jpg" is="image">
-    </center>
-    <div is="raty" score="3"></div>
-    <h1 is="gk-text">Cantonese Fillet Steak</h1>
+      <img style="width:90%;" src="img/Crispy_Calamari_with_Spiced_Peppery_Salt.jpg" is="image">
+		<h1 is="gk-text">Crispy Calamari with Spiced Peppery Salt</h1>
+		<p>Price: 19.95$</P>
+	</center>   
   </div>
   <div data-position="fixed" data-role="footer">
     <div data-role="navbar">
       <ul>
         <li>
-          <a data-icon="home">BtnA</a>
+          <a data-icon="home" href="index.html">Back Menu</a>
         </li>
         <li>
-          <a data-icon="star">BtnB</a>
+          <a data-icon="star">Qulity</a>
         </li>
         <li>
-          <a data-icon="star">BtnC</a>
+          <a data-icon="star">Add</a>
         </li>
       </ul>
     </div>
@@ -141,26 +146,26 @@
 
 <div id="item4" data-role="page">
   <div data-role="header" data-position="fixed">
-    <h3>Cantonese Fillet Steak</h3>
+    <h3>GongBao Chicken withCashew Nuts</h3>
   </div>
   <div role="main" class="ui-content">
     <center>
-      <img style="width:90%;" src="img/Cantonese_Fillet_Steak.jpg" is="image">
-    </center>
-    <div is="raty" score="3"></div>
-    <h1 is="gk-text">Cantonese Fillet Steak</h1>
+      <img style="width:90%;" src="img/GongBao_Chicken_withCashew_Nuts.jpg" is="image">
+		<h1 is="gk-text">GongBao Chicken withCashew Nuts</h1>
+		<p>Price: 19.95$</P>
+	</center> 
   </div>
   <div data-position="fixed" data-role="footer">
     <div data-role="navbar">
       <ul>
         <li>
-          <a data-icon="home">BtnA</a>
+          <a data-icon="home" href="index.html">Back Menu</a>
         </li>
         <li>
-          <a data-icon="star">BtnB</a>
+          <a data-icon="star">Qulity</a>
         </li>
         <li>
-          <a data-icon="star">BtnC</a>
+          <a data-icon="star">Add</a>
         </li>
       </ul>
     </div>
@@ -171,26 +176,26 @@
 
 <div id="item5" data-role="page">
   <div data-role="header" data-position="fixed">
-    <h3>Cantonese Fillet Steak</h3>
+    <h3>Hot and Sour Soup</h3>
   </div>
   <div role="main" class="ui-content">
     <center>
-      <img style="width:90%;" src="img/Cantonese_Fillet_Steak.jpg" is="image">
-    </center>
-    <div is="raty" score="3"></div>
-    <h1 is="gk-text">Cantonese Fillet Steak</h1>
+      <img style="width:90%;" src="img/Hot_&_Sour_Soup.jpg" is="image">
+		<h1 is="gk-text">Hot and Sour Soup</h1>
+		<p>Price: 14.95$</P>
+	</center>   
   </div>
   <div data-position="fixed" data-role="footer">
     <div data-role="navbar">
       <ul>
         <li>
-          <a data-icon="home">BtnA</a>
+          <a data-icon="home" href="index.html">Back Menu</a>
         </li>
         <li>
-          <a data-icon="star">BtnB</a>
+          <a data-icon="star">Qulity</a>
         </li>
         <li>
-          <a data-icon="star">BtnC</a>
+          <a data-icon="star">Add</a>
         </li>
       </ul>
     </div>
@@ -201,26 +206,26 @@
 
 <div id="item6" data-role="page">
   <div data-role="header" data-position="fixed">
-    <h3>Cantonese Fillet Steak</h3>
+    <h3>Lettuce Cup</h3>
   </div>
   <div role="main" class="ui-content">
     <center>
-      <img style="width:90%;" src="img/Cantonese_Fillet_Steak.jpg" is="image">
-    </center>
-    <div is="raty" score="3"></div>
-    <h1 is="gk-text">Cantonese Fillet Steak</h1>
+      <img style="width:90%;" src="img/LettuceCup.jpg" is="image">
+		<h1 is="gk-text">Lettuce Cup</h1>
+		<p>Price: 19.95$</P>
+	</center>
   </div>
   <div data-position="fixed" data-role="footer">
     <div data-role="navbar">
       <ul>
         <li>
-          <a data-icon="home">BtnA</a>
+          <a data-icon="home" href="index.html">Back Menu</a>
         </li>
         <li>
-          <a data-icon="star">BtnB</a>
+          <a data-icon="star">Qulity</a>
         </li>
         <li>
-          <a data-icon="star">BtnC</a>
+          <a data-icon="star">Add</a>
         </li>
       </ul>
     </div>
@@ -231,26 +236,26 @@
 
 <div id="item7" data-role="page">
   <div data-role="header" data-position="fixed">
-    <h3>Cantonese Fillet Steak</h3>
+    <h3>Special Fried Rice</h3>
   </div>
   <div role="main" class="ui-content">
     <center>
-      <img style="width:90%;" src="img/Cantonese_Fillet_Steak.jpg" is="image">
-    </center>
-    <div is="raty" score="3"></div>
-    <h1 is="gk-text">Cantonese Fillet Steak</h1>
+      <img style="width:90%;" src="img/Special_Fried_Rice.jpg" is="image">
+		<h1 is="gk-text">Special Fried Rice</h1>
+		<p>Price: 19.95$</P>
+	</center>    
   </div>
   <div data-position="fixed" data-role="footer">
     <div data-role="navbar">
       <ul>
         <li>
-          <a data-icon="home">BtnA</a>
+          <a data-icon="home" href="index.html">Back Menu</a>
         </li>
         <li>
-          <a data-icon="star">BtnB</a>
+          <a data-icon="star">Qulity</a>
         </li>
         <li>
-          <a data-icon="star">BtnC</a>
+          <a data-icon="star">Add</a>
         </li>
       </ul>
     </div>
@@ -261,26 +266,26 @@
 
 <div id="item8" data-role="page">
   <div data-role="header" data-position="fixed">
-    <h3>Cantonese Fillet Steak</h3>
+    <h3>Steamed barramundi with Ginger Shallot Soya Sauce</h3>
   </div>
   <div role="main" class="ui-content">
     <center>
-      <img style="width:90%;" src="img/Cantonese_Fillet_Steak.jpg" is="image">
-    </center>
-    <div is="raty" score="3"></div>
-    <h1 is="gk-text">Cantonese Fillet Steak</h1>
+      <img style="width:90%;" src="img/Steamed_barramundi_with_Ginger_Shallot_Soya_Sauce.jpg" is="image">
+		<h1 is="gk-text">Steamed barramundi with Ginger Shallot Soya Sauce</h1>
+		<p>Price: 19.95$</P>
+	</center>    
   </div>
   <div data-position="fixed" data-role="footer">
     <div data-role="navbar">
       <ul>
         <li>
-          <a data-icon="home">BtnA</a>
+          <a data-icon="home" href="index.html">Back Menu</a>
         </li>
         <li>
-          <a data-icon="star">BtnB</a>
+          <a data-icon="star">Qulity</a>
         </li>
         <li>
-          <a data-icon="star">BtnC</a>
+          <a data-icon="star">Add</a>
         </li>
       </ul>
     </div>

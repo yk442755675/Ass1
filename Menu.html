@@ -4,7 +4,7 @@
 	<title>Menu</title> 
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+	<!-- Link to JQuery.com to get those functions and styles -->
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
 <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
@@ -12,18 +12,21 @@
 
 </head> 
 
-
+<!-- start body-->
 <body class="ui-mobile-viewport">  
-
-<div id="Menu" data-role="page">
+<!-- Menu Page-->
+<div id="Menu" data-role="page" is="page">
   <div data-role="header" data-position="fixed">
     <h3>Menu</h3>
   </div>	
   <div role="main" class="ui-content">
+  <!-- start a List View-->
     <ul data-role="listview" data-inset="true">
+	<!--LIst view Divider -->
       <li data-role="list-divider" data-theme="f">CHEF's Suggestions</li>
+	  <!-- <li></li> List item and link to the product-->
       <li>
-        <a href="Item.html?id='item1"" class="ui-link-inherit">
+        <a href="Item.html?id='item1" class="ui-link-inherit">
           <img src="img/PekingDuck_S.jpg" class="ui-li-icon;weight:80px;height:80px">Peking Duck</a>
       </li>
       <li>
@@ -59,7 +62,7 @@
 </div>
 
 <!-- Item Page 1  -->
-<Section id="item1" data-role="page">
+<Section id="item1" data-role="page" is="page">
   <div data-role="header" data-position="fixed">
     <h3>Peking Duck</h3> 
   </div>
@@ -87,7 +90,7 @@
   </div>
 </Section>
 <!-- Item Page 2  -->
-<Section id="item2" data-role="page">
+<Section id="item2" data-role="page" is="page">
   <div data-role="header" data-position="fixed">
     <h3>Cantonese Fillet Steak</h3>
   </div>
@@ -118,7 +121,7 @@
 
 <!-- Item Page 3  -->
 
-<Section id="item3" data-role="page">
+<Section id="item3" data-role="page" is="page">
   <div data-role="header" data-position="fixed">
     <h3>Crispy Calamari with Spiced Peppery Salt</h3>
   </div>
@@ -129,7 +132,7 @@
 		<p>Price: 19.95$</P>
 	</center>   
   </div>
-  <div data-position="fixed" data-role="footer">
+  <div data-position="fixed" data-role="footer" >
     <div data-role="navbar">
       <ul>
         <li>
@@ -148,7 +151,7 @@
 
 <!-- Item Page 4 -->
 
-<Section id="item4" data-role="page">
+<Section id="item4" data-role="page" is="page">
   <div data-role="header" data-position="fixed">
     <h3>GongBao Chicken withCashew Nuts</h3>
   </div>
@@ -178,7 +181,7 @@
 
 <!-- Item Page 5  -->
 
-<Section id="item5" data-role="page">
+<Section id="item5" data-role="page" is="page">
   <div data-role="header" data-position="fixed">
     <h3>Hot and Sour Soup</h3>
   </div>
@@ -208,7 +211,7 @@
 
 <!-- Item Page 6  -->
 
-<Section id="item6" data-role="page">
+<Section id="item6" data-role="page" is="page">
   <div data-role="header" data-position="fixed">
     <h3>Lettuce Cup</h3>
   </div>
@@ -238,7 +241,7 @@
 
 <!-- Item Page 7  -->
 
-<Section id="item7" data-role="page">
+<Section id="item7" data-role="page" is="page">
   <div data-role="header" data-position="fixed">
     <h3>Special Fried Rice</h3>
   </div>
@@ -268,7 +271,7 @@
 
 <!-- Item Page 8  -->
 
-<Section id="item8" data-role="page">
+<Section id="item8" data-role="page" is="page">
   <div data-role="header" data-position="fixed">
     <h3>Steamed barramundi with Ginger Shallot Soya Sauce</h3>
   </div>
